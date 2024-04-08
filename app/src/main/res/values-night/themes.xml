@@ -3,5 +3,15 @@
     <style name="Base.Theme.InterfaceNetflix" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <!-- Customizando Netflix -->
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryVariant">@color/primaria_variacao</item>
+        <item name="colorOnPrimary">@color/branco</item>
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name="colorSecondaryVariant">@color/secundaria</item>
+        <item name="colorOnSecondary">@color/preto</item>
+
+        <item name="android:windowBackground">@color/fundo</item>
     </style>
 </resources>
